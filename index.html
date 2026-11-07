@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Daybook — Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the Daybook notes app. Your notes stay on your device. No account, no server, no tracking." />
+<style>
+  :root{
+    --bg:#f6f7fb; --surface:#ffffff; --surface-alt:#eef0f6; --border:#e6e8f0;
+    --text:#15171c; --muted:#6b7280; --primary:#6366f1; --accent:#ec4899;
+    --primary-soft:#eceeff; --shadow:30 27 75;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#0f1115; --surface:#171a21; --surface-alt:#20242d; --border:#2a2f3a;
+      --text:#f3f4f6; --muted:#9aa3af; --primary:#818cf8; --accent:#f472b6;
+      --primary-soft:#20243a; --shadow:0 0 0;
+    }
+  }
+  :root[data-theme="dark"]{
+    --bg:#0f1115; --surface:#171a21; --surface-alt:#20242d; --border:#2a2f3a;
+    --text:#f3f4f6; --muted:#9aa3af; --primary:#818cf8; --accent:#f472b6;
+    --primary-soft:#20243a; --shadow:0 0 0;
+  }
+  *{box-sizing:border-box}
+  html{-webkit-text-size-adjust:100%}
+  body{
+    margin:0; background:var(--bg); color:var(--text);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    line-height:1.65; font-size:16px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:0 16px 80px}
+
+  /* Branded top bar — mirrors the app header */
+  header.bar{
+    background:var(--surface); border-bottom:1px solid var(--border);
+    padding:18px 16px;
+  }
+  .brand{
+    max-width:720px; margin:0 auto; display:flex; align-items:center; gap:12px;
+  }
+  .brand .names{display:flex; flex-direction:column}
+  .wordmark{font-size:22px; font-weight:800; letter-spacing:-.5px; color:var(--text); line-height:1.1}
+  .tagline{font-size:13px; font-weight:600; color:var(--muted); margin-top:1px}
+
+  /* Hero */
+  .hero{padding:40px 0 10px}
+  h1{font-size:30px; font-weight:800; letter-spacing:-.6px; margin:0 0 6px}
+  .hero .updated{color:var(--muted); font-size:14px; font-weight:600}
+  .pill{
+    display:inline-block; margin-top:16px; padding:8px 14px; border-radius:999px;
+    background:var(--primary-soft); color:var(--primary); font-weight:700; font-size:13.5px;
+  }
+
+  section{
+    background:var(--surface); border:1px solid var(--border); border-radius:18px;
+    padding:22px 22px; margin-top:16px;
+    box-shadow:0 6px 20px -12px rgb(var(--shadow) / .35);
+  }
+  h2{font-size:18px; font-weight:800; letter-spacing:-.3px; margin:0 0 8px}
+  p{margin:0 0 12px}
+  p:last-child{margin-bottom:0}
+  ul{margin:0 0 4px; padding-left:20px}
+  li{margin:6px 0}
+  a{color:var(--primary); font-weight:600}
+  strong{font-weight:700}
+  .big{
+    background:linear-gradient(135deg,var(--primary),var(--accent));
+    border:none; color:#fff;
+  }
+  .big h2{color:#fff}
+  .big p{color:rgba(255,255,255,.95); margin:0}
+
+  footer{
+    text-align:center; color:var(--muted); font-size:13px; margin-top:28px;
+  }
+  footer .dot{color:var(--accent)}
+</style>
+</head>
+<body>
+  <header class="bar">
+    <div class="brand">
+      <!-- Daybook logo: sun over an open book on a rounded brand tile -->
+      <svg width="40" height="40" viewBox="0 0 40 40" role="img" aria-label="Daybook logo">
+        <defs>
+          <clipPath id="tile"><rect x="0" y="0" width="40" height="40" rx="12" /></clipPath>
+        </defs>
+        <g clip-path="url(#tile)">
+          <rect x="0" y="0" width="40" height="40" fill="#6366f1" />
+          <circle cx="40" cy="40" r="16" fill="#ec4899" opacity="0.85" />
+          <circle cx="20" cy="9.4" r="4.4" fill="#fff" />
+          <g>
+            <rect x="6.4" y="19.2" width="27.2" height="12.8" rx="2.4" fill="#fff" />
+            <rect x="19.4" y="19.2" width="1.2" height="12.8" fill="#6366f1" opacity="0.28" />
+            <rect x="9" y="22" width="8" height="1.3" rx="0.6" fill="#6366f1" opacity="0.85" />
+            <rect x="9" y="25.4" width="8" height="1.3" rx="0.6" fill="#6366f1" opacity="0.7" />
+            <rect x="23" y="22" width="8" height="1.3" rx="0.6" fill="#6366f1" opacity="0.85" />
+            <rect x="23" y="25.4" width="8" height="1.3" rx="0.6" fill="#6366f1" opacity="0.7" />
+          </g>
+        </g>
+      </svg>
+      <div class="names">
+        <span class="wordmark">Daybook</span>
+        <span class="tagline">Notes, by the day.</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="hero">
+      <h1>Privacy Policy</h1>
+      <div class="updated">Last updated: 7 November 2026</div>
+      <span class="pill">Your notes never leave your device</span>
+    </div>
+
+    <section class="big">
+      <h2>The short version</h2>
+      <p>Daybook is a personal notes app. Everything you write is stored only on your
+      own device. There is no account to create, no sign-in, and no server that Daybook
+      sends your notes to. We do not collect, see, sell, or share your data.</p>
+    </section>
+
+    <section>
+      <h2>Information we collect</h2>
+      <p><strong>None.</strong> Daybook does not collect any personal information.</p>
+      <ul>
+        <li>The notes, titles, dates, and colors you create are saved in your device's
+        local storage, on the device itself.</li>
+        <li>Daybook has no user accounts and asks for no name, email, or phone number.</li>
+        <li>There are no servers that receive or store your content.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>How your notes are stored</h2>
+      <p>Your notes are kept in the app's private on-device storage. They stay on your
+      device and are not uploaded, synced, or backed up to us. If your device's own
+      system backup (for example, an operating-system or cloud backup you have enabled)
+      includes app data, that backup is governed by that service's privacy policy, not by
+      Daybook.</p>
+    </section>
+
+    <section>
+      <h2>Analytics, tracking & ads</h2>
+      <p>Daybook contains <strong>no analytics, no tracking, no advertising, and no
+      third-party SDKs</strong> that profile you. We do not use cookies or advertising
+      identifiers, and we do not track your activity across apps or websites.</p>
+    </section>
+
+    <section>
+      <h2>Permissions</h2>
+      <p>Daybook requests only the permissions it needs to function as a notes app. It does
+      not access your contacts, location, microphone, or camera to collect data about you.</p>
+    </section>
+
+    <section>
+      <h2>Deleting your data</h2>
+      <p>You are in full control. Delete any note from inside the app at any time. To remove
+      everything, uninstalling Daybook deletes all notes stored on your device. Because your
+      notes live only on your device, we have no copy to delete on our side.</p>
+    </section>
+
+    <section>
+      <h2>Children's privacy</h2>
+      <p>Daybook does not knowingly collect personal information from anyone, including
+      children. Since no data is collected or transmitted, the app does not gather information
+      from children under 13 (or the equivalent minimum age in your region).</p>
+    </section>
+
+    <section>
+      <h2>Changes to this policy</h2>
+      <p>If this policy changes, we will update this page and revise the "Last updated" date
+      above. Continued use of the app after an update means you accept the revised policy.</p>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Questions about this privacy policy? Reach us at
+      <a href="mailto:support@daybook.com">support@daybook.com</a>.</p>
+    </section>
+
+    <footer>
+      Daybook <span class="dot">•</span> Notes, by the day.
+    </footer>
+  </div>
+</body>
+</html>
